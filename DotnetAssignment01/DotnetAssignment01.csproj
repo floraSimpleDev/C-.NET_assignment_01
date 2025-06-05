@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ArraySort12\ArraySort12.csproj" />
+    <ProjectReference Include="..\ArraySum14\ArraySum14.csproj" />
+    <ProjectReference Include="..\CalculatePrice2\CalculatePrice2.csproj" />
+    <ProjectReference Include="..\DoWhile9\DoWhile9.csproj" />
+    <ProjectReference Include="..\IfElsePractice5\IfElsePractice5.csproj" />
+    <ProjectReference Include="..\MaxTwo12\MaxTwo13.csproj" />
+    <ProjectReference Include="..\MonthAndYear7\MonthAndYear7.csproj" />
+    <ProjectReference Include="..\MultiplicationTable11\MultiplicationTable11.csproj" />
+    <ProjectReference Include="..\NarcissisticNumber10\NarcissisticNumber10.csproj" />
+    <ProjectReference Include="..\OutPractice15\OutPractice15.csproj" />
+    <ProjectReference Include="..\Placeholder3\Placeholder3.csproj" />
+    <ProjectReference Include="..\RefPractice16\RefPractice16.csproj" />
+    <ProjectReference Include="..\SwitchJudement6\SwitchJudement6.csproj" />
+    <ProjectReference Include="..\TimeCalculator4\TimeCalculator4.csproj" />
+    <ProjectReference Include="..\VariablePractice1\VariablePractice1.csproj" />
+    <ProjectReference Include="..\WhilePractice8\WhilePractice8.csproj" />
+  </ItemGroup>
+
+</Project>
